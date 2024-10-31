@@ -1,0 +1,27 @@
+// Variables de las rutas de imágenes
+@imagen-yo: 'img/yo.jpg';
+@imagen-biografia1: 'img/biografia1.jpg';
+
+// Estilos para la imagen de la sección Inicio
+.Inicio {
+  .img-box {
+    img {
+      content: url(@imagen-yo); // Aplica la imagen
+      width: 100%; // Ajusta el tamaño según tu diseño
+      height: auto;
+      border-radius: 8px; // Añade bordes redondeados si lo deseas
+    }
+  }
+}
+
+// Estilos para la imagen de la sección Biografía
+.Biografia {
+  .biografia-img {
+    img {
+      content: url(@imagen-biografia1); // Aplica la imagen
+      width: 100%; // Ajusta según sea necesario
+      height: auto;
+      border-radius: 8px;
+    }
+  }
+}
